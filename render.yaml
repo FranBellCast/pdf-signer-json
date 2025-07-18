@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: pdf-signer-json
+    name: pdf-signer
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
